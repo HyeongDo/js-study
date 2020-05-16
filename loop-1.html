@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var inp = 1, cnt = 0, tmp=0, sum=0;
+        while(inp != 0){
+            tmp = prompt("수를 입력하세요.");
+            inp = Number(tmp);
+            if(inp==0) break;
+            sum+=inp;
+            cnt++;
+            console.log("수의 합 : "+sum+" 입력 횟수 : "+cnt);
+        }
+    </script>
+</body>
+</html>

@@ -1,7 +1,23 @@
 <!DOCTYPE html>
-<html>
-    <h1>JS Study</h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>TEST</h2>
     <script>
-        console.log("hello.world");
+        var str = prompt("숫자를 입력해 주세요.");
+        var n = Number(str);
+        if(n > 10){
+            console.log(n+"이 10보다 큽니다.");
+        }else if(n>=3){
+            console.log(n+"이 3이상 10 이하입니다.");
+        }
+        else{
+            console.log(n+"이 3보다 작습니다.");
+        }
     </script>
+</body>
 </html>

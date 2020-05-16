@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><h1>소수 판별</h1>
+    <script>
+        var num = Number(prompt("수를 입력하세요."));
+        if(num <= 1){
+            document.write("소수가 아닙니다.");
+        }else{
+            for(var i=2;i<num;i++){
+                if(num%i===0){
+                    document.write(num+"은 소수가 아닙니다.");
+                    break;
+                }
+                if(i===num-1){
+                    document.write(num+"은 소수입니다.");
+                }
+            }
+        }
+        
+    </script>
+</body>
+</html>
